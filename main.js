@@ -74,30 +74,30 @@ class Media{
   
   historyOfEverything.toggleCheckOutStatus();
   
-  //console.log(historyOfEverything.isCheckedOut)
+  console.log(historyOfEverything.isCheckedOut)
   
   // pushing values into array rating in the Book class
   historyOfEverything.addRating(4)
   historyOfEverything.addRating(5)
   historyOfEverything.addRating(5)
   
- // console.log(historyOfEverything.ratings)
+ console.log(historyOfEverything.ratings)
   
   historyOfEverything.getAverageRating()
   
-  //console.log(historyOfEverything.getAverageRating())
+  console.log(historyOfEverything.getAverageRating())
   
   const speed = new Movie('Jan de Bont', 'Speed', 116);
   
   speed.toggleCheckOutStatus();
-  //console.log(speed.isCheckedOut)
+  console.log(speed.isCheckedOut)
   
   // pushing values into array rating in the Movie class
   speed.addRating(1)
   speed.addRating(1)
   speed.addRating(5)
   
- // console.log(speed.ratings)
+ console.log(speed.ratings)
   
   speed.getAverageRating()
   console.log(speed.getAverageRating())
